@@ -1,0 +1,129 @@
+.typing-challenge{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.timer-container{
+    margin: 16px;
+}
+
+.timer{
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.timer-info{
+    margin: 0;
+    margin-top: -5px;
+    color: #dd5044;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.textarea-container{
+    margin: 16px;
+    display: flex;
+    /* flex-direction: row; */
+    margin-bottom: 50px;
+    flex-grow: 1;
+    width: 80%;
+}
+
+.textarea-left,
+.textarea-right{
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+}
+
+.textarea{
+    text-align: left;
+    flex-grow: 1;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    line-height:18px;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.26);
+    overflow: scroll;
+    transition: all 0.2s;
+    border: 0;
+  font-size: 18px;
+}
+
+.textarea{
+scrollbar-width: none;
+}
+
+.textarea-left{
+  letter-spacing: 2px;
+  height: auto;
+  background-color:rgba(239,255,254,.7215686274509804);
+}
+
+.textarea::-webkit-scrollbar{
+    display: none;
+}
+
+
+.textarea:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12),0 10px 20px rgba(0,0,0,0.26);
+}
+
+
+.text-paragraph{
+    font-size: 12px;
+    background: #effffeb8;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.textarea-right{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .textarea-container{
+    flex-direction: column;
+    max-height: 70vh;
+    /* border: 2px solid red;÷ */
+  }
+  .text-paragraph{
+      border-radius: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  .textarea-right{
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+  .textarea-left,
+  .textarea-right {
+    width: 100%;
+    /* flex-grow: 0.5; */
+    height: 10%;
+    /* border: 2px solid red; */
+  }
+
+  .textarea {
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .textarea {
+    font-size: 15px !important;
+  }
+}
