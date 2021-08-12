@@ -13,7 +13,7 @@ const  Nav=()=> {
            </div>
            <div className="nav-right">
                <a target="_blank" className="nav-aam-link"
-               href="https://github.com/Harshitsaini-12/Typing-Press"
+               href="https://github.com/Harshitsaini-12/Typing-press1"
                 rel="noreferrer">
                 See Code 👨🏻‍💻
                 </a>
