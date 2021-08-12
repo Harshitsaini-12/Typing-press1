@@ -1,4 +1,4 @@
-project-link:https://typing-press.herokuapp.com/
+Project-link:<a href="https://typing-press.herokuapp.com/">Typing Press<a/>
 
 ### `npm start`
 
