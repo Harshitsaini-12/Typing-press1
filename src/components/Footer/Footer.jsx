@@ -16,7 +16,7 @@ const Footer = () => {
                     <img src={github} alt="" className="footer-link-img" />
                     Github
                 </a>
-                <a className="footer-link" target="_blank" href="https://sleepy-shore-99772.herokuapp.com/">
+                <a className="footer-link" target="_blank" href="https://contact-harshit.herokuapp.com/">
                     <img src={gmail1} alt="" className="footer-link-img" />
                     NewsLetter
                 </a>
