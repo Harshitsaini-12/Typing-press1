@@ -9,7 +9,17 @@ Project-link:- <a href="https://typing-press.herokuapp.com/" target="_blank" >Ty
 <img width="1440" alt="Screenshot 2021-08-12 at 21 01 23" src="https://user-images.githubusercontent.com/81574700/129225934-84a40236-0751-41b1-a61d-b95d0d6573ad.png">
   
 <img width="1440" alt="Screenshot 2021-08-12 at 21 07 50" src="https://user-images.githubusercontent.com/81574700/129225939-f1ac06a7-158c-4713-842e-d750ce45b76f.png">
-
+Tech Stack Used
+  
+ <a>React.js</a>
+  <a>React Router</a>
+ <a>SAWO Labs</a>
+ <a>JSX</a>
+ <a>CSS</a>
+ <a>Material UI</a>
+ <a>GitHub Pages</a>
+  
+  </br>
 ### `npm start`
 
 Runs the app in the development mode.\
