@@ -1,6 +1,7 @@
 
 Project-link:- <a href="https://typing-press.herokuapp.com/" target="_blank" >Typing Press<a/>
   
+  <h2>Screenshots</h2>
   
 <img width="1440" alt="Screenshot 2021-08-12 at 21 00 44" src="https://user-images.githubusercontent.com/81574700/129225849-2e42277a-a7b0-47b2-9530-ab02e9c46040.png">
 
